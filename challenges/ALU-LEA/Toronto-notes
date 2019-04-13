@@ -1,0 +1,35 @@
+
+ALU-LEA / AlumnUSB donor leaderboard
+
+Design and create an HTML donor leaderboards to recognize and encourage contributions to AlumnUSB.
+#chal-alu-lea
+
+Diagnosis:
+-USB is using FlipCause as their payment platform.
+-USB is using Servage one for their Wordpress hosting 
+- AlumnUSB uses WordPress as their platform.
+- Summary of campaigns
+1. Iluminemos la USB
+2. Premio a la Labor Docente AlumnUSB
+3. Beca a un Estudiante de la USB
+4. Dona un Monto a la Biblioteca de la USB
+5. Dona Mensualmente Automaticamente
+6. 100 Computadoras para la USB
+
+Challenges:
+- FlipCause doesn’t have an API available. The user would have to manually import a CSV file into the system. 
+- Other payment platforms with APIs have larger fees.
+
+Proposal:
+- Build a WP plugin that captures where the user can import the data from FlipCause and it will display it on the leaderboard.
+- Streamline the donation levels into maybe 3 or 4 so it’s easier to translate these into a ranking system for the leaderboard.
+
+Questions to outline the scope of work:
+Does the client want to have a general leaderboard or divide this by campaign?
+Does the client have the human resources to manually import a CSV file on a daily/weekly basis into their system?
+Is the leaderboard shown on the landing page or on each campaign, showing the ranking per campaign?
+
+
+
+
+
